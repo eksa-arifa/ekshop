@@ -42,7 +42,7 @@ document.querySelector('.btnbeli a').onclick = ()=>{
       idpemain.textContent = "id pemain:" + document.querySelector('.kotak-input .input form input').value;
       jumlahdm.textContent = "Jumlah diamond:" + hide.value;
       box.style.display = "block";
-      beli.setAttribute("href", "https://wa.me/628989181940?text=Saya%20tertarik%20membeli%20diamond%20sebesar%20"+hide.value+"%20dengan%20id%20"+document.querySelector('.kotak-input .input form input').value);
+      beli.setAttribute("href", "https://api.whatsapp.com/send?phone=628989181940&text=Saya%20tertarik%20untuk%20membeli%20produk%20"+hide.value+"%20dengan%20id%20"+document.querySelector('.kotak-input .input form input').value);
     }
   
   }
