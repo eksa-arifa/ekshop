@@ -39,7 +39,7 @@ function clickfungsi(pilihan){
     }else if(hide.value == 355){
       harga.textContent = "Rp.50000";
     }else if(hide.value == 720){
-      harga.textContent = "Rp.92000";
+      harga.textContent = "Rp.95000";
     }
   }
 }
